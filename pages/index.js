@@ -1,9 +1,9 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
+      <title>Welcome to Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
@@ -40,9 +40,7 @@ const Home = () => (
           className="card"
         >
           <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
+          <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
         </a>
       </div>
     </main>
@@ -198,6 +196,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
